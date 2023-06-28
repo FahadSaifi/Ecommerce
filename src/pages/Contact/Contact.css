@@ -1,0 +1,113 @@
+.contact-form-flex-container {
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.contact-heading {
+    font-size: 30px;
+    margin-top: 24px;
+    text-align: center;
+    position: relative;
+}
+
+.contact-heading::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-image: linear-gradient(135deg, #3B2667 10%, #BC78EC 100%);
+    -webkit-text-fill-color: transparent;
+    width: 6rem;
+    height: 3px;
+}
+
+.contact-left-col {
+    flex-basis: 50%;
+}
+
+.contact-right-col {
+    padding: 20px;
+    flex-basis: 48%;
+    height: 400px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url("../../images/headphone.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.contact-input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #BC78EC;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.textarea {
+    height: 150px;
+    border: 2px solid #BC78EC;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 13px;
+    padding-top: 10px;
+    font-family: Mulish;
+}
+
+.input-submit-btn {
+    height: 36px;
+    background-image: linear-gradient(135deg, #3B2667 10%, #BC78EC 100%);
+    color: #fff;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .contact-right-col {
+        display: none;
+    }
+
+    .contact-form-flex-container {
+        gap: 20px;
+    }
+
+    .contact-left-col {
+        flex-basis: 100%;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .contact-right-col {
+        display: none;
+    }
+
+    .contact-heading {
+        font-size: 30px;
+    }
+
+    .contact-form-flex-container {
+        gap: 20px;
+    }
+
+    .contact-left-col {
+        flex-basis: 100%;
+        height: 300px;
+    }
+
+    .textarea {
+        height: 100px;
+    }
+}

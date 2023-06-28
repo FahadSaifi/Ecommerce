@@ -1,0 +1,80 @@
+.newletter-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    background-color: #f5f5f5;
+    margin-top: 60px;
+}
+
+.subscribe-heading{
+    font-size: .9rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.stay-update-heading{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.subscribe-field{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 2px solid #eee;
+    outline: none;
+}
+
+.newsletter-submit-btn{
+    width: 130px;
+    height: 40px;
+    border: 1px solid #eee;
+    color: #fff;
+    cursor: pointer;
+    background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
+}
+
+.recieve-emails-text{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 575px){
+    .subscribe-heading{
+        font-size: .8rem;
+    }
+    
+    .stay-update-heading{
+        font-size: 1.5rem;
+    }
+    .subscribe-field{
+        width: 180px;
+        height: 40px;
+        font-size: 15px;
+    }
+    
+    .newsletter-submit-btn{
+        width: 80px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
+

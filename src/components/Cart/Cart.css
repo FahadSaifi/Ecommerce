@@ -1,0 +1,166 @@
+.cart-wrapper {
+    width: 320px;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    animation: slideLeft 0.2s ease alternate;
+    z-index: 99999;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.cart-opac {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    animation: fade .2s ease alternate;
+    z-index: 100;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.cart-top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-heading {
+    font-size: 20px;
+}
+
+.cart-close {
+    cursor: pointer;
+}
+
+.cart-middle-section {
+    height: calc(100% - 106px);
+    overflow: auto;
+}
+
+.cart-card {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.cart-item-img {
+    width: 60px;
+}
+
+.cart-item-amt {
+    font-size: 14px;
+}
+
+.cart-item-title {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.cart-item-add-less {
+    width: 80px;
+    height: 25px;
+    padding: 0 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    margin-top: 10px;
+}
+
+.cart-item-ratings {
+    display: flex;
+    align-items: center;
+}
+
+.cart-rate-icon {
+    font-size: 14px;
+    margin-top: 4px;
+    color: orange;
+}
+
+.rate-count {
+    font-size: 13px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.quantity-params {
+    width: 85px;
+    height: 26px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.inc, .dec {
+    cursor: pointer;
+}
+
+.cart-item-close {
+    margin-top: 14px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.cart-checkout-wrapper {
+    height: 55px;
+}
+
+.cart-total-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.cart-total-heading {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cart-total-price {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cart-checkout-btn {
+    width: 100%;
+    height: 33px;
+    background-image: linear-gradient(135deg, #3B2667 10%, #BC78EC 100%);
+    color: #fff;
+    font-family: Mulish;
+    font-weight: 500;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}

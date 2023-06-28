@@ -1,0 +1,358 @@
+export const prod = [
+  {
+    id: 1,
+    title: "Airdopes 141",
+    description:
+      "Wireless Earbuds with 8mm drivers, Upto 42 Hours Playback, ENx™ Technology, IPX4 Water Resistance",
+    price: 2999,
+    category: "Wireless-Earbuds",
+    image: require("../images/airpods/a1.webp"),
+    rating: 3.9,
+  },
+  {
+    id: 2,
+    title: "Airdopes 113",
+    description:
+      "True Wireless Gaming Earbuds with Powerful 13mm Drivers, Beast™ Mode for Gaming, ENx™ Technology, Upto 24 hours of Continuous Playback",
+    price: 1499,
+    category: "Wireless-Earbuds",
+    image: require("../images/airpods/a2.webp"),
+    rating: 3.5,
+  },
+  {
+    id: 3,
+    title: "Airdopes 418 ANC",
+    description:
+      "Noise-Cancelling Earbuds with 10mm Drivers, Up to 25dB ANC, ENx™ Technology, 17.5H Playback",
+    price: 1299,
+    category: "Wireless-Earbuds",
+    image: require("../images/airpods/a3.webp"),
+    rating: 4.9,
+  },
+  {
+    id: 4,
+    title: "TRebel Airdopes 181",
+    description:
+      "Wireless Earbuds with 10mm Drivers, ENx™ Technology, IPX4 Sweat Resistance, Type C Interface, Voice Assistant with Google and SIRI",
+    price: 1499,
+    category: "Wireless-Earbuds",
+    image: require("../images/airpods/a4.webp"),
+    rating: 4.4,
+  },
+  {
+    id: 5,
+    title: "TRebel Airdopes 121 v2",
+    description:
+      "Its 380mAh carry cum charging case offers an additional playtime of up to 10.5 hours",
+    price: 999,
+    category: "Wireless-Earbuds",
+    image: require("../images/airpods/a5.webp"),
+    rating: 4.2,
+  },
+  {
+    id: 6,
+    title: "Airdopes 171",
+    description:
+      "In-Ear Earbuds with 6mm drivers, Bluetooth v5.0, Up to 13H Playback, Voice Assistant",
+    price: 3999,
+    category: "Wireless-Earbuds",
+    image: require("../images/airpods/a6.webp"),
+    rating: 4.7,
+  },
+  {
+    id: 7,
+    title: "Nikon D780 25.28 MP DSLR Camera",
+    description:
+      "24.5 MP DSLR Camera with single lens and with 12 months warranty",
+    price: 199999,
+    category: "Digital-Cameras",
+    image: require("../images/cameras/c1.png"),
+    rating: 4.8,
+  },
+  {
+    id: 8,
+    title: "Canon EOS M50 Mark",
+    description:
+      " 24.1MP Mirrorless Camera (15-45 mm Lens, 22.3 x 14.9 mm Sensor, 5 Axis Stabilisation)",
+    price: 99999,
+    category: "Digital-Cameras",
+    image: require("../images/cameras/c2.png"),
+    rating: 4.9,
+  },
+  {
+    id: 9,
+    title: "Canon EOS R50 Mirrorless Camera",
+    description: "18-45 mm Lens, 5-Axis Electronic Image Stabilizatio",
+    price: 71999,
+    category: "Digital-Cameras",
+    image: require("../images/cameras/c3.png"),
+    rating: 4.6,
+  },
+  {
+    id: 10,
+    title: "Nikon Z 30 20.9MP",
+    description: "18-45 mm Lens, 5-Axis Electronic Image Stabilizatio",
+    price: 45999,
+    category: "Digital-Cameras",
+    image: require("../images/cameras/c4.png"),
+    rating: 4.9,
+  },
+  {
+    id: 11,
+    title: "Rockerz 410",
+    description:
+      "Bluetooth Headphone for Work from Home, 8 Hours Playback, 40mm Dynamic Drivers, Super Extra Bass",
+    price: 4599,
+    category: "Wireless-Headphones",
+    image: require("../images/headphones/p1.webp"),
+    rating: 4.1,
+  },
+  {
+    id: 12,
+    title: "Rockerz 558",
+    description:
+      "Wireless Headphone with 20H Playback, Bluetooth v5.0, 500mAh battery, 50mm Dynamic Drivers",
+    price: 2999,
+    category: "Wireless-Headphones",
+    image: require("../images/headphones/p2.webp"),
+    rating: 3.9,
+  },
+  {
+    id: 13,
+    title: "Rockerz 450 DC Edition",
+    description:
+      "Wireless Bluetooth Headphone with 40mm Dynamic Drivers, Upto 15 Hours Playback, Adaptive Headband",
+    price: 2399,
+    category: "Wireless-Headphones",
+    image: require("../images/headphones/p3.webp"),
+    rating: 3.6,
+  },
+  {
+    id: 14,
+    title: "Rockerz 560",
+    description:
+      "Wireless Headphone with 40mm Dynamic Drivers, 15Hour Non-Stop Music, Ergonomically Designed Over-Ear Headphone Immersive Audio",
+    price: 1999,
+    category: "Wireless-Headphones",
+    image: require("../images/headphones/p5.webp"),
+    rating: 4.6,
+  },
+  {
+    id: 15,
+    title: "Rockerz 450 - Masaba Edition",
+    description:
+      "Bluetooth Headphone with 40mm Drivers, 8H Playback, Adaptive Headband, Limited Edition Desig",
+    price: 2699,
+    category: "Wireless-Headphones",
+    image: require("../images/headphones/p6.webp"),
+    rating: 4.1,
+  },
+  {
+    id: 16,
+    title: "Rockerz 450 Pro",
+    description:
+      "Wireless Headphone with 40mm Massive Drivers, Mountainous Playback Upto 70 Hours, Asap Charge",
+    price: 3499,
+    category: "Wireless-Headphones",
+    image: require("../images/headphones/p4.webp"),
+    rating: 4.1,
+  },
+  {
+    id: 17,
+    title: "Apple iPhone 14 Pro",
+    description:
+      "15.54 cm (6.1-inch) Super Retina XDR display featuring Always-On and ProMotion.Dynamic Island, a magical new way to interact with iPhone",
+    price: 119999,
+    category: "SmartPhones",
+    image: require("../images/mobiles/m1.png"),
+    rating: 4.9,
+  },
+  {
+    id: 18,
+    title: "Apple iPhone 11",
+    description:
+      "6.1-inch (15.5 cm diagonal) Liquid Retina HD LCD display Water and dust resistant (2 meters for up to 30 minutes, IP68",
+    price: 119999,
+    category: "SmartPhones",
+    image: require("../images/mobiles/m2.png"),
+    rating: 4.7,
+  },
+  {
+    id: 19,
+    title: "vivo V27 5G",
+    description:
+      "6.78 inches (17.22cm), AMOLED, 120 Hz Refresh Rate and with 12GB RAM, 256GB ROM",
+    price: 36000,
+    category: "SmartPhones",
+    image: require("../images/mobiles/m3.png"),
+    rating: 4.4,
+  },
+  {
+    id: 20,
+    title: "Apple iPhone 13",
+    description:
+      "15 cm (6.1-inch) Super Retina XDR display,Cinematic mode adds shallow depth of field and shifts focus automatically in your videos",
+    price: 61999,
+    category: "SmartPhones",
+    image: require("../images/mobiles/m4.png"),
+    rating: 4.6,
+  },
+  {
+    id: 21,
+    title: "OnePlus Nord CE 2 Lite 5G",
+    description:
+      "64MP Main Camera with EIS; 2MP Depth Lens and 2MP Macro Lens; Front (Selfie) Camera: 16MP Sony IMX471",
+    price: 19999,
+    category: "SmartPhones",
+    image: require("../images/mobiles/m5.png"),
+    rating: 4.6,
+  },
+  {
+    id: 22,
+    title: "Aavante Bar 900",
+    description:
+      "30W RMS boAt Signature Sound, Sleek Finish Design, Multiple EQ Modes, USB, AUX, Optical, BT 5.0",
+    price: 4999,
+    category: "Soundbar",
+    image: require("../images/soudbar/sb1.webp"),
+    rating: 4.8,
+  },
+  {
+    id: 23,
+    title: "Aavante Bar 1750",
+    description:
+      "120W Home Theatre Soundbar with 80W Wireless Subwoofer, USB, Optical, Coaxial, HDMI, AUX, BT, FM",
+    price: 7999,
+    category: "Soundbar",
+    image: require("../images/soudbar/sb2.webp"),
+    rating: 4.9,
+  },
+  {
+    id: 24,
+    title: "Aavante Bar 4000DA",
+    description:
+      "Powerful 200W Home Theatre Sound, 2.1.2 Channel, Dolby Atmos 3D Technology, Sleek & Minimal Design",
+    price: 9999,
+    category: "Soundbar",
+    image: require("../images/soudbar/sb3.webp"),
+    rating: 4.3,
+  },
+  {
+    id: 25,
+    title: "Aavante Bar Octave",
+    description: "Aavante Bar Soundbar with 100W RMS",
+    price: 8999,
+    category: "Soundbar",
+    image: require("../images/soudbar/sb4.webp"),
+    rating: 4.6,
+  },
+  {
+    id: 26,
+    title: "Stone 1208 Sunburn Edition",
+    description: "Purple Army",
+    price: 3999,
+    category: "Speakers",
+    image: require("../images/speakers/s2.webp"),
+    rating: 4.8,
+  },
+  {
+    id: 27,
+    title: "Stone 500",
+    description:
+      "Portable Bluetooth Speaker with 10W RMS Stereo Sound, RGB Lights, Bluetooth v5.0, AUX, USB & FM mode",
+    price: 2999,
+    category: "Speakers",
+    image: require("../images/speakers/s1.webp"),
+    rating: 4.7,
+  },
+  {
+    id: 28,
+    title: "Stone 1200",
+    description:
+      "14W Portable Wireless Speaker with RGB LEDs, Up to 9 Hours of Playtime, AUX, USB and FM modes",
+    price: 5999,
+    category: "Speakers",
+    image: require("../images/speakers/s3.webp"),
+    rating: 4.4,
+  },
+  {
+    id: 29,
+    title: "Stone 1000v2",
+    description:
+      "14W Powerful Stereo Sound, Up to 8hrs Nonstop Playback, Travel & Party Booster, 3000mah Battery",
+    price: 8999,
+    category: "Speakers",
+    image: require("../images/speakers/s5.webp"),
+    rating: 4.4,
+  },
+  {
+    id: 30,
+    title: "Apple iPad Air 5th Generation",
+    description:
+      "10.9 inches (27.69 cm) Liquid Retina Display,8 GB RAM, 64 GB ROM",
+    price: 54999,
+    category: "Tablets",
+    image: require("../images/tabs/t1.png"),
+    rating: 4.4,
+  },
+  {
+    id: 31,
+    title: "SAMSUNG Galaxy Tab A8",
+    description:
+      "10.5 inches (26.69 cm) TFT WUXGA Display,4 GB RAM, 64 GB ROM, Expandable upto1 TB",
+    price: 29999,
+    category: "Tablets",
+    image: require("../images/tabs/t3.png"),
+    rating: 4.4,
+  },
+  {
+    id: 32,
+    title: "Apple iPad 9th Generation",
+    description:
+      "10.2 inches (25.91 cm) Retina Display,Apple A13 Bionic Chip, 6 Core",
+    price: 34999,
+    category: "Tablets",
+    image: require("../images/tabs/t2.png"),
+    rating: 4.4,
+  },
+  {
+    id: 33,
+    title: "Wave Call",
+    description:
+      "Bluetooth Calling Smartwatch with 1.694.29 cm HD Curved Display, 150+ Watch Faces, Heart Rate & SPO2 Monitoring",
+    price: 4999,
+    category: "SmartWatches",
+    image: require("../images/watches/w1.webp"),
+    rating: 4.6,
+  },
+  {
+    id: 34,
+    title: "Storm Call",
+    description:
+      "Bluetooth Calling Smart Watch with 1.69 (4.29 cm) HD display, Super-Responsive Dialpad, 150+ Cloud Faces",
+    price: 3999,
+    category: "SmartWatches",
+    image: require("../images/watches/w2.webp"),
+    rating: 4.7,
+  },
+  {
+    id: 35,
+    title: "Wave Flex Connect",
+    description:
+      "1.83 (4.64 cm) Large Display BT Calling Smartwatch, Upto 10 Days Battery, IP68, Dust & Splash Resistance",
+    price: 5499,
+    category: "SmartWatches",
+    image: require("../images/watches/w3.webp"),
+    rating: 4.6,
+  },
+  {
+    id: 36,
+    title: "Wave Electra",
+    description:
+      "1.81 inch Full Touch Large Display Smartwatch with Bluetooth Calling, 100+ sports modes, IP68 Dust & Water Resistance",
+    price: 2499,
+    category: "SmartWatches",
+    image: require("../images/watches/w4.webp"),
+    rating: 4.2,
+  },
+];
